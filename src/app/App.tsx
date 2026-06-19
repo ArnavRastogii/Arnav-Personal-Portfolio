@@ -294,7 +294,7 @@ function Hero() {
               <MagBtn onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
                 Contact Me <Mail size={15} />
               </MagBtn>
-              <MagBtn ghost href="/src/imports/Arnav-1.pdf" target="_blank">
+              <MagBtn ghost href="/Arnav-1.pdf" target="_blank">
                 Resume <Download size={15} />
               </MagBtn>
             </motion.div>
@@ -325,7 +325,7 @@ function Hero() {
             style={{ transform: `perspective(800px) rotateX(${rx}deg) rotateY(${ry}deg)`, transition: "transform 0.15s ease-out" }}>
             <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-3xl overflow-hidden"
               style={{ background: "linear-gradient(135deg,rgba(124,106,247,.22),rgba(6,182,212,.1))", border: "1px solid rgba(124,106,247,.22)", boxShadow: "0 0 60px rgba(124,106,247,.18),0 0 120px rgba(124,106,247,.06)" }}>
-              <img src="src\imports\Profile Pic.png"
+              <img src="\Profile Pic.png"
                 alt="Arnav Rastogi" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top,rgba(6,6,15,.55) 0%,transparent 55%)" }} />
             </div>
